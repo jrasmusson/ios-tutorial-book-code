@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		717210FF251952AE00245963 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717210FE251952AE00245963 /* AppDelegate.swift */; };
-		71721101251952AE00245963 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71721100251952AE00245963 /* SceneDelegate.swift */; };
-		71721103251952AE00245963 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71721102251952AE00245963 /* ViewController.swift */; };
-		71721106251952AE00245963 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71721104251952AE00245963 /* Main.storyboard */; };
-		71721108251952AF00245963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71721107251952AF00245963 /* Assets.xcassets */; };
-		7172110B251952AF00245963 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71721109251952AF00245963 /* LaunchScreen.storyboard */; };
+		71A6FD16251A32A100938335 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A6FD15251A32A100938335 /* AppDelegate.swift */; };
+		71A6FD18251A32A100938335 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A6FD17251A32A100938335 /* SceneDelegate.swift */; };
+		71A6FD1A251A32A100938335 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A6FD19251A32A100938335 /* ViewController.swift */; };
+		71A6FD1D251A32A100938335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A6FD1B251A32A100938335 /* Main.storyboard */; };
+		71A6FD1F251A32A200938335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71A6FD1E251A32A200938335 /* Assets.xcassets */; };
+		71A6FD22251A32A200938335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A6FD20251A32A200938335 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		717210FB251952AE00245963 /* ILoveCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ILoveCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		717210FE251952AE00245963 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		71721100251952AE00245963 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		71721102251952AE00245963 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		71721105251952AE00245963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		71721107251952AF00245963 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7172110A251952AF00245963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7172110C251952AF00245963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71A6FD12251A32A100938335 /* ILoveCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ILoveCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71A6FD15251A32A100938335 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71A6FD17251A32A100938335 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		71A6FD19251A32A100938335 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		71A6FD1C251A32A100938335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71A6FD1E251A32A200938335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71A6FD21251A32A200938335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71A6FD23251A32A200938335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		717210F8251952AE00245963 /* Frameworks */ = {
+		71A6FD0F251A32A100938335 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,32 +37,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		717210F2251952AE00245963 = {
+		71A6FD09251A32A100938335 = {
 			isa = PBXGroup;
 			children = (
-				717210FD251952AE00245963 /* ILoveCoffee */,
-				717210FC251952AE00245963 /* Products */,
+				71A6FD14251A32A100938335 /* ILoveCoffee */,
+				71A6FD13251A32A100938335 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		717210FC251952AE00245963 /* Products */ = {
+		71A6FD13251A32A100938335 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				717210FB251952AE00245963 /* ILoveCoffee.app */,
+				71A6FD12251A32A100938335 /* ILoveCoffee.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		717210FD251952AE00245963 /* ILoveCoffee */ = {
+		71A6FD14251A32A100938335 /* ILoveCoffee */ = {
 			isa = PBXGroup;
 			children = (
-				717210FE251952AE00245963 /* AppDelegate.swift */,
-				71721100251952AE00245963 /* SceneDelegate.swift */,
-				71721102251952AE00245963 /* ViewController.swift */,
-				71721104251952AE00245963 /* Main.storyboard */,
-				71721107251952AF00245963 /* Assets.xcassets */,
-				71721109251952AF00245963 /* LaunchScreen.storyboard */,
-				7172110C251952AF00245963 /* Info.plist */,
+				71A6FD15251A32A100938335 /* AppDelegate.swift */,
+				71A6FD17251A32A100938335 /* SceneDelegate.swift */,
+				71A6FD19251A32A100938335 /* ViewController.swift */,
+				71A6FD1B251A32A100938335 /* Main.storyboard */,
+				71A6FD1E251A32A200938335 /* Assets.xcassets */,
+				71A6FD20251A32A200938335 /* LaunchScreen.storyboard */,
+				71A6FD23251A32A200938335 /* Info.plist */,
 			);
 			path = ILoveCoffee;
 			sourceTree = "<group>";
@@ -70,13 +70,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		717210FA251952AE00245963 /* ILoveCoffee */ = {
+		71A6FD11251A32A100938335 /* ILoveCoffee */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7172110F251952AF00245963 /* Build configuration list for PBXNativeTarget "ILoveCoffee" */;
+			buildConfigurationList = 71A6FD26251A32A200938335 /* Build configuration list for PBXNativeTarget "ILoveCoffee" */;
 			buildPhases = (
-				717210F7251952AE00245963 /* Sources */,
-				717210F8251952AE00245963 /* Frameworks */,
-				717210F9251952AE00245963 /* Resources */,
+				71A6FD0E251A32A100938335 /* Sources */,
+				71A6FD0F251A32A100938335 /* Frameworks */,
+				71A6FD10251A32A100938335 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,24 +84,24 @@
 			);
 			name = ILoveCoffee;
 			productName = ILoveCoffee;
-			productReference = 717210FB251952AE00245963 /* ILoveCoffee.app */;
+			productReference = 71A6FD12251A32A100938335 /* ILoveCoffee.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		717210F3251952AE00245963 /* Project object */ = {
+		71A6FD0A251A32A100938335 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					717210FA251952AE00245963 = {
+					71A6FD11251A32A100938335 = {
 						CreatedOnToolsVersion = 12.0;
 					};
 				};
 			};
-			buildConfigurationList = 717210F6251952AE00245963 /* Build configuration list for PBXProject "ILoveCoffee" */;
+			buildConfigurationList = 71A6FD0D251A32A100938335 /* Build configuration list for PBXProject "ILoveCoffee" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,55 +109,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 717210F2251952AE00245963;
-			productRefGroup = 717210FC251952AE00245963 /* Products */;
+			mainGroup = 71A6FD09251A32A100938335;
+			productRefGroup = 71A6FD13251A32A100938335 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				717210FA251952AE00245963 /* ILoveCoffee */,
+				71A6FD11251A32A100938335 /* ILoveCoffee */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		717210F9251952AE00245963 /* Resources */ = {
+		71A6FD10251A32A100938335 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7172110B251952AF00245963 /* LaunchScreen.storyboard in Resources */,
-				71721108251952AF00245963 /* Assets.xcassets in Resources */,
-				71721106251952AE00245963 /* Main.storyboard in Resources */,
+				71A6FD22251A32A200938335 /* LaunchScreen.storyboard in Resources */,
+				71A6FD1F251A32A200938335 /* Assets.xcassets in Resources */,
+				71A6FD1D251A32A100938335 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		717210F7251952AE00245963 /* Sources */ = {
+		71A6FD0E251A32A100938335 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71721103251952AE00245963 /* ViewController.swift in Sources */,
-				717210FF251952AE00245963 /* AppDelegate.swift in Sources */,
-				71721101251952AE00245963 /* SceneDelegate.swift in Sources */,
+				71A6FD1A251A32A100938335 /* ViewController.swift in Sources */,
+				71A6FD16251A32A100938335 /* AppDelegate.swift in Sources */,
+				71A6FD18251A32A100938335 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		71721104251952AE00245963 /* Main.storyboard */ = {
+		71A6FD1B251A32A100938335 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				71721105251952AE00245963 /* Base */,
+				71A6FD1C251A32A100938335 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		71721109251952AF00245963 /* LaunchScreen.storyboard */ = {
+		71A6FD20251A32A200938335 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7172110A251952AF00245963 /* Base */,
+				71A6FD21251A32A200938335 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -165,7 +165,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		7172110D251952AF00245963 /* Debug */ = {
+		71A6FD24251A32A200938335 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		7172110E251952AF00245963 /* Release */ = {
+		71A6FD25251A32A200938335 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -281,7 +281,7 @@
 			};
 			name = Release;
 		};
-		71721110251952AF00245963 /* Debug */ = {
+		71A6FD27251A32A200938335 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -299,7 +299,7 @@
 			};
 			name = Debug;
 		};
-		71721111251952AF00245963 /* Release */ = {
+		71A6FD28251A32A200938335 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -320,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		717210F6251952AE00245963 /* Build configuration list for PBXProject "ILoveCoffee" */ = {
+		71A6FD0D251A32A100938335 /* Build configuration list for PBXProject "ILoveCoffee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7172110D251952AF00245963 /* Debug */,
-				7172110E251952AF00245963 /* Release */,
+				71A6FD24251A32A200938335 /* Debug */,
+				71A6FD25251A32A200938335 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7172110F251952AF00245963 /* Build configuration list for PBXNativeTarget "ILoveCoffee" */ = {
+		71A6FD26251A32A200938335 /* Build configuration list for PBXNativeTarget "ILoveCoffee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				71721110251952AF00245963 /* Debug */,
-				71721111251952AF00245963 /* Release */,
+				71A6FD27251A32A200938335 /* Debug */,
+				71A6FD28251A32A200938335 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 717210F3251952AE00245963 /* Project object */;
+	rootObject = 71A6FD0A251A32A100938335 /* Project object */;
 }
