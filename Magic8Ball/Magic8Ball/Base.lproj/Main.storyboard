@@ -22,7 +22,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eXH-f8-BQo">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="240" placeholderIntrinsicHeight="240" translatesAutoresizingMaskIntoConstraints="NO" id="eXH-f8-BQo">
                                 <rect key="frame" x="87" y="229" width="240" height="240"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="eXH-f8-BQo" secondAttribute="height" multiplier="1:1" id="Wp2-xm-QpT"/>
@@ -39,6 +39,9 @@
                                 <state key="normal" title="Ask">
                                     <color key="titleColor" systemColor="systemGreenColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="askButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="89l-qt-BCU"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -53,6 +56,10 @@
                             <constraint firstItem="eXH-f8-BQo" firstAttribute="top" secondItem="oG7-sG-G2g" secondAttribute="bottom" constant="80" id="yOU-lN-gq8"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="answerImageView" destination="eXH-f8-BQo" id="mOE-v3-uEh"/>
+                        <outlet property="askButton" destination="xT5-o6-kpt" id="N1a-XF-JXl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
