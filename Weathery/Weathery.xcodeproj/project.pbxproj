@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		710A57CF254C29EE00C86C38 /* WeatheryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710A57CE254C29EE00C86C38 /* WeatheryTests.swift */; };
 		710A57D9254C2B1500C86C38 /* WeatherDataTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710A57D8254C2B1500C86C38 /* WeatherDataTest.swift */; };
 		710A57EA254C36AA00C86C38 /* weather.json in Resources */ = {isa = PBXBuildFile; fileRef = 710A57E9254C36AA00C86C38 /* weather.json */; };
 		710A57EE254C518800C86C38 /* WeatherViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710A57ED254C518800C86C38 /* WeatherViewControllerTest.swift */; };
@@ -35,7 +34,6 @@
 
 /* Begin PBXFileReference section */
 		710A57CC254C29EE00C86C38 /* WeatheryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatheryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		710A57CE254C29EE00C86C38 /* WeatheryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatheryTests.swift; sourceTree = "<group>"; };
 		710A57D0254C29EE00C86C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		710A57D8254C2B1500C86C38 /* WeatherDataTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataTest.swift; sourceTree = "<group>"; };
 		710A57E9254C36AA00C86C38 /* weather.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = weather.json; sourceTree = "<group>"; };
@@ -77,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				710A57E0254C35EB00C86C38 /* Fixtures */,
-				710A57CE254C29EE00C86C38 /* WeatheryTests.swift */,
 				710A57D0254C29EE00C86C38 /* Info.plist */,
 				710A57D8254C2B1500C86C38 /* WeatherDataTest.swift */,
 				710A57ED254C518800C86C38 /* WeatherViewControllerTest.swift */,
@@ -271,7 +268,6 @@
 			files = (
 				710A57EE254C518800C86C38 /* WeatherViewControllerTest.swift in Sources */,
 				710A57D9254C2B1500C86C38 /* WeatherDataTest.swift in Sources */,
-				710A57CF254C29EE00C86C38 /* WeatheryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

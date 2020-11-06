@@ -56,7 +56,7 @@ class WeatherViewControllerTest: XCTestCase {
 
 struct WeatherServiceMock: WeatherServiceProtocol {
     
-    var delegate: WeatherServiceDelegate?
+    weak var delegate: WeatherServiceDelegate?
     
     var weatherModel: WeatherModel?
     var error: ServiceError?
